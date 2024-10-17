@@ -1,0 +1,112 @@
+/* box 01 */
+
+.box1 {
+    width: 420px;
+    height: 260px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0s;
+    position: relative;
+    overflow: hidden;
+    border-radius: 2%;
+}
+
+.box1 span {
+    height: 260px;
+    width: 420px;
+    color: white;
+    display: block;
+    position: absolute;
+    left: -420px;
+    transform: scale(.1);
+    background-color: #61b3ae;
+    /* background-position: center; */
+    transition: 0s;
+}
+
+.box1:hover,
+.box1:hover span {
+    opacity: 1;
+    left: 0px;
+    transform: scale(1);
+    
+}
+
+.main-box1 .box1 .card-body .icon {
+    height: 50px;
+    width: 50px;
+    background: #61b3ae;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    color: #fff;
+    margin: 0 auto 10px auto;
+    transition: all 0s ease;
+}
+
+.box1 .card-body:hover .icon {
+    background-color: #fff;
+    color: #61b3ae;
+}
+
+.main-box1 {
+    display: flex;
+    overflow: hidden;
+}
+
+/*  */
+
+.brands-icone {
+    font-size: 20px;
+    color: white;
+}
+
+.text {
+    font-size: 20px;
+    color: white;
+}
+
+.text:hover {
+    color: #ff7800;
+}
+
+.family {
+    font-family: 'Playpen Sans', cursive;
+}
+
+.family2 {
+    font-family: 'Courgette', cursive;
+}
+
+.banner-image {
+    background: url('./image/Portfolio.png');
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+@media(max-width: 991px) {
+    .sidebar {
+        background-color: rgb(238, 246, 246, 0.15);
+        backdrop-filter: blur(10px);
+    }
+
+    section Div {
+        font-size: 0px;
+    }
+}
+
+
+.padding {
+
+    padding-top: 180px;
+}
+
+.pt-6 {
+    padding-top: 6rem;
+}
